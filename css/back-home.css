@@ -8,8 +8,8 @@
 
 .back-home {
   width: 100%;
-  padding: 0.5rem;
-  background: white;
+  padding: 1px 0.5em;
+  background: #fff;
   border-bottom: 1px #272727 solid;
 }
 
