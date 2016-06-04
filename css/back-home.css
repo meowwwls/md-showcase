@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.back-home {
+  width: 100%;
+  padding: 0.5rem;
+  background: white;
+  border-bottom: 1px #272727 solid;
+}
+
+.back-home a {
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  color: #272727;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  transition: background 0.25s ease-in-out;
+}
+
+.back-home a::before {
+  content: '\25c4';
+  margin-right: 0.5em;
+}
+
+.back-home a:hover,
+.back-home a:focus {
+  outline: 0;
+  background: #fccec2;
+}
